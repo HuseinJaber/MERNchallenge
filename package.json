@@ -1,0 +1,24 @@
+{
+  "name": "challenge",
+  "version": "1.0.0",
+  "description": "MERN stack challenge",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend"
+
+  },
+  "author": "Hussein Jaber",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^6.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
